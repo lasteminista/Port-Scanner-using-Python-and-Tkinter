@@ -143,7 +143,6 @@ class App(tk.Tk):
 
     # Return Selected Ports List
     def port_list(self):
-        self.common_ports = [20, 21, 22, 23, 25, 53, 80, 110, 443]
         ports = list()
         port_selection = self.var.get()
         if port_selection == 1:
